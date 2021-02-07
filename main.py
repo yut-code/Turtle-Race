@@ -36,7 +36,7 @@ player_two.goto(start_p2)
 while True:
   if player_one.pos() >= (300,100):
     print("\n\nPlayer One Wins!")
-    False
+    break
 
   elif player_two.pos() >= (300,-100):
     print("\n\nPlayer Two Wins!")
